@@ -1,7 +1,7 @@
 'use strict';
 
 export class Duck {
-    private quackBehavior;
+    quackBehavior;
 
     constructor() {
     }
