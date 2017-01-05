@@ -1,1 +1,3 @@
-import './strategy/DuckSimulator';
+import {runDuckSimulator} from './strategy/DuckSimulator';
+
+runDuckSimulator();

@@ -1,10 +1,10 @@
 'use strict';
 
 export class QuackBehavior {
-    constructor() {
-    }
+  constructor() {
+  }
 
-    quack() {
-        console.log('Default quack');
-    }
+  quack() {
+    console.log('Default quack');
+  }
 }
