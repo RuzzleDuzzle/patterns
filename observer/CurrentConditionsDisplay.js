@@ -9,9 +9,8 @@ export class CurrentConditionsDisplay extends DisplayElement {
   }
 
   update(options) {
-    if (options.temperature) this.temperature = options.temperature;
-
-    if (options.humidity) this.humidity = options.humidity;
+    this.temperature = this.subject.getTemperature();
+    this.humidity = this.subject.getHumidity();
 
     this.display();
   }

@@ -5,5 +5,5 @@ export class Observer {
     subject.registerObserver(this);
   }
 
-  update(options) {}
+  update() {}
 }
