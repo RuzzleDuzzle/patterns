@@ -1,3 +1,9 @@
 import {runDuckSimulator} from './strategy/DuckSimulator';
+import {WeatherStation} from './observer/WeatherStation';
 
-runDuckSimulator();
+/* Uncomment line to run Strategy pattern */
+//runDuckSimulator();
+
+
+let weatherStation = new WeatherStation();
+weatherStation.run();
